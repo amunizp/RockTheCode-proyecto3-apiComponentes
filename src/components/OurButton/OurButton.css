@@ -1,0 +1,13 @@
+.ourButton {
+  border-radius: 8px;
+  border: none;
+  background-color: #ffd17b;
+  padding: 5px 10px;
+}
+
+.highlight {
+  border-radius: 2px;
+  border: 3px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+}
