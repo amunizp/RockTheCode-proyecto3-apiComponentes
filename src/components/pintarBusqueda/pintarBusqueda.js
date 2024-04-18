@@ -14,9 +14,10 @@ export const pintarBusqueda = (palabraClave = 'gatos', divApp) => {
       // console.log(result.response.results)
       listFotos = result.response.results
       if (listFotos === undefined || !listFotos.length) {
-        // console.log(pintaSugerencias())
+        console.log('pintaSugerencias()')
         pintaSugerencias(divApp)
       } else {
+        console.log('pintando la lista cards')
         listFotos.forEach((element) => {
           // console.log(element.user.username)
           Card(
@@ -32,7 +33,7 @@ export const pintarBusqueda = (palabraClave = 'gatos', divApp) => {
       console.log('Algo va mal!')
       console.log(err.name, err.message)
       if (err.message === 'result.response is undefined') {
-        console.log('te pille')
+        console.log('Voy a pintar Sugerencias')
         pintaSugerencias(divApp)
       }
     })
