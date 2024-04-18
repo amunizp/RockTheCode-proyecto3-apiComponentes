@@ -1,4 +1,4 @@
-import { api } from '../../data/process'
+import { api } from '../../data/process' //esto esta en git ignore, lo doy aparte
 import { Card } from '../Card/Card'
 import { pintaSugerencias } from '../pintarSugerencias/pintarSugerencias'
 export const pintarBusqueda = (palabraClave = 'gatos', divApp) => {
