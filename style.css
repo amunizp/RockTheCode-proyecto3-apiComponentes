@@ -35,6 +35,9 @@ a:hover {
   color: var(--rtc-color-link2);
   cursor: pointer;
 }
+nav#nav-right {
+  cursor: pointer;
+}
 
 body {
   margin: 0;
