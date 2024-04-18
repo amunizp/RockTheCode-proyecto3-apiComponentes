@@ -43,3 +43,9 @@ elemFormButton.addEventListener('click', (evento) => {
   console.log(palabraClave)
   //let value = e.target.value
 })
+const elemLogo = document.querySelector('a#logo')
+elemLogo.addEventListener('click', (evento) => {
+  palabraClave = 'chorizo'
+  pintarBusqueda(palabraClave, divApp)
+  console.log('toque logo y envie busqueda de ' + palabraClave)
+})

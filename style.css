@@ -33,6 +33,7 @@ a {
 }
 a:hover {
   color: var(--rtc-color-link2);
+  cursor: pointer;
 }
 
 body {
@@ -79,7 +80,11 @@ h1 {
   justify-content: center;
   background-color: var(--rtc-color-app);
 }
-
+a#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .logo-svg {
   height: 2em;
   padding: 1.5em;
